@@ -308,3 +308,16 @@ body {
 
 .main__partners {
 }
+.partners-block {
+}
+.partners-block__title {
+    padding-bottom: 25px;
+}
+.partners-block__logo {
+    display: flex;
+    row-gap: 15px;
+    column-gap: 50px;
+}
+.partners-block__logo__item {
+    
+}
