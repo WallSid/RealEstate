@@ -34,6 +34,8 @@ html, body {
 
 input, button, textarea {
     font-family: inherit;
+    margin: 0;
+    padding: 0;
 }
 
 input::-ms-clear {
@@ -51,7 +53,6 @@ button::-moz-focus-inner {
 
 a, a:visited {
     text-decoration: none;
-    color: inherit
 }
 
 a:hover {
@@ -67,10 +68,10 @@ img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-size: inherit;
     height: 100%;
     line-height: 1;
-    font-weight: inherit;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -596,3 +597,81 @@ body {
 }
 
 /* ==================HOW-IT-WORKS_BLOCK-END================================== */
+
+
+/* ==================BEST-DEALS-START================================== */
+
+.best-deals__page {
+}
+.best-deals__container {
+}
+.best-deals {
+}
+
+
+.best-deals__header-body {
+    display: flex;
+    justify-content: space-between;
+}
+.best-deals__text-block {
+    padding-bottom: 50px;
+}
+
+.best-deals__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.25;
+    margin: 0;
+    padding: 0;
+
+    color: #000;
+}
+.best-deals__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+
+    color: #000;
+}
+.best-deals__button {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.35;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+
+    background: #F85A47;
+    padding: 22px 34px;
+    border-radius: 5px;
+
+    max-height: 65px;
+}
+
+
+.best-deals__tabs {
+}
+.best-deals__tab-nav {
+}
+.best-deals__tabs-button {
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 26px;
+}
+.best-deals__tabs-body {
+}
+.tabs__items {
+}
+.tabs__item {
+}
+.tabs__options {
+}
+.tabs__option {
+}
+.tabs__image {
+}
+.tabs__image-item {
+}
+
+/* ==================BEST-DEALS-END================================== */
+
