@@ -1,7 +1,7 @@
 const swiper = new Swiper('.main__slider-block', {
     loop: true,
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.main__text-block__arrow.swiper-button-next',
+      prevEl: '.main__text-block__arrow.swiper-button-prev',
     },
   });
