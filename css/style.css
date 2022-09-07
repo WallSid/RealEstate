@@ -370,7 +370,7 @@ body {
     /* margin-right: -188px; */
     height: 86px;
     background-color: #fff;
-    background: url("/img/main/home.svg") 33px 50% no-repeat;
+    background: url("../RealEstate/img/main/home.svg") 33px 50% no-repeat;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
