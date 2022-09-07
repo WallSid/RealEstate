@@ -1153,8 +1153,11 @@ body {
     padding-bottom: 160px;
     padding-top: 210px;
 }
-.newsletter__container {
+
+.newsletter__page {
+    padding-top: 50px;
 }
+
 .newsletter__title {
     padding: 160px 0px 10px 0px;
 }
